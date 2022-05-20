@@ -1,0 +1,39 @@
+* {
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.contentR {
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contentL {
+    width: 35%;
+    height: 100vh;
+}
+
+input, label {
+    display:block;
+}
+
+.form {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.input-div {
+    display: flex;
+    
+}
