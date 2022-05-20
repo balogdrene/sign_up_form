@@ -1,6 +1,15 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -8,19 +17,40 @@
 }
 
 .contentR {
-    width: 65%;
+    width: 70%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: aliceblue;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    
 }
+
+.text-content {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 .contentL {
-    width: 35%;
+    font-family: Norse-Bold;
+    font-size: 6rem;
+    width: 30%;
     height: 100vh;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 input, label {
     display:block;
+}
+
+.form-container {
+    padding-right: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
 }
 
 .form {
@@ -29,7 +59,8 @@ input, label {
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
+    
 }
 
 
@@ -37,3 +68,19 @@ input, label {
     display: flex;
     
 }
+
+.logo-box {
+    /* position: absolute; */
+    /* width: 100%; */
+    margin-top: 10rem;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    /* top: 8rem; */
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* .logo-box > h1 {
+    opacity: 1;
+} */
